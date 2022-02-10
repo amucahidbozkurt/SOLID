@@ -19,7 +19,7 @@ struct Developer {
 // Genisletilebilir degil yani burada yeni meslek eklemek istesek, bir sekilde duplicate edecegiz ya da vergi orani degisirse. tacPercentage, Developer struct altinda olmasi mantikli degil, cunku ortak noktalari yok.
 
 // DOGRU
-struct Engineer {
+struct Developer2 {
     let name: String
     let salary: Decimal
 }
