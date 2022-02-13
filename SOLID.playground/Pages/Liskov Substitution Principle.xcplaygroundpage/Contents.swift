@@ -1,5 +1,6 @@
 import Foundation
 
+// Sınıflarımızda oluşacak herhangi bir mantık hatasının önüne geçmek ve boş fonksiyon ekleyip kodun kalitesini, okunurluğunu düşürmemek için bu prensip bizlere sunulmuştur.
 // Bu prensip OOP ile iliskilidir. Bir protocolden uretilmis alt class, o protocolun barindirdigi tum fonksiyonlari almalidir ama class kendisiyle alakasiz fonksiyonlari almamasi gereklidir. (ileride cikabilecek sorunlar icin) Swift'de biz bu sorunu protocol kullanarak cozuyoruz.
 // Asagidaki ornekte de gordugumuz gibi Kartal, BirdProtocol'un tum fonksiyonlarina uyum sagliyor ama Penguen saglamiyor. Saglamiyorsa gereksiz kod kalabaligi yapmamaliyiz, proje buyudukce karisiklik cikabilir.
 
