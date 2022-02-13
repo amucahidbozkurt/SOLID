@@ -37,3 +37,7 @@ class TaxCalculator {
         return salary * taxPercentage
     }
 }
+
+let counter = TaxCalculator(taxPercentage: 10)
+let result = counter.calculateTax(forSalary: 2)
+print(result)
