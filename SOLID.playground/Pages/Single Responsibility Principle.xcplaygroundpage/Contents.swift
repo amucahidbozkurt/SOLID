@@ -1,5 +1,3 @@
-//: [Previous](@previous)
-
 import Foundation
 
 // Tasarladigimiz modul, class, fonksiyon vs. tek bir ise odaklanmalidir.
