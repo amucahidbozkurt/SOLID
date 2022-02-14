@@ -22,6 +22,8 @@ class CarViewController: UIViewController {
     }
 }
 
+// Proje buyudu ve ileride ayni degiskenlere sahip class eklemek zorunda kalabiliriz. O yuzden bir protocol olusuturup, ihtiyac halinde bu protocolden uretebiliriz.
+
 // DOGRU
 protocol CarViewModelProtocol {
     var make: String { get }
